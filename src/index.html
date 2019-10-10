@@ -4,12 +4,82 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="cipher.js"></script>
+    <div id = "inicio" class = "inicio" >
+      <h1>Crea tu claves segura para redes sociales y correos electronicos</h1><br>
+      <div class = "candado">
+          <img src="imagenes/computadora.jpg" width="400" height="500">
+          <h2>Todos utilizamos a diario contraseñas para acceder a nuestro correo electrónico, a las redes sociales, 
+              foros o para iniciar el ordenador. Si usas una clave débil corres el riesgo de que algún intruso pueda descifrarla
+               y tener acceso a tu información. Sin duda crear una clave segura es la primera línea de protección en internet.</h2>
+      </div>
+      <div class="cuenta">
+          <p>Escoge una cuenta:</p>
+          <div class="social">
+              <button href= # type = "button" id = "btn" class="social face"></button>
+              <button href= # type = "button" id = "btn2"  class="social gmail"></button>
+          </div>  
+          <div class = "social2">
+              <button href= # type = "button" id = "btn3"  class="social yahoo"></button>
+              <button href= # type = "button" id = "btn4"  class="social instagram"></button>
+          </div>
+      </div>
+  </div>
+  <div id="nivelSeguridad" class="ocultar">
+      <div class ="fondo" >
+          <img src="imagenes/fondo.jpg" width = "600">
+      </div>    
+      <div class="nivel" >
+          <h1>Crea tu clave segura</h1>
+          <img src="imagenes/seguro.jpg" width="400">
+          <p>Nivel de seguridad</p>
+          <select aria-label="Niveles" id="Nivel" >
+              <option value="0">Nivel</option><option value="3">Nivel 3</option><option value="4">Nivel 4</option>
+              <option value="5">Nivel 5</option><option value="6">Nivel 6</option><option value="7">Nivel 7</option></select><br>
+          <button  href= # type="button" id = "siguiente">Siguiente</button>
+      </div>   
+  </div>
+  <div id = "opciones" class = "opciones ocultar">
+      <div class="fondo">
+          <img  src="imagenes/fondo.jpg" width = "600" > 
+      </div>
+      <div class ="criterios">
+      <h1>Deseas hacer:</h1>
+      <img src="imagenes/codi.jpg" width = "350"><br>
+      <button  href = # type="button" id = "btncifrado">Cifrado</button>
+      <button  href = # type="button" id = "btndescifrado">Descifrado</button>
+     </div>
+     
+  </div>
+  <div id = "Cifrado" class = "cifrador ocultar">
+      <div class="fondo">
+         <img  src="imagenes/fondo.jpg" width = "600"> 
+      </div>
+      <div class = "cifrar">
+          <h1>Ingresa la clave deseada</h1>
+          <input  type="text" placeholder = " SOLO MAYUSCULA" id="claveACifrar" /><br>
+          <button href = # type = "button" id = "btnencode">Cifrar</button>
+          <button href = # type = "button" id = "limpiarCifrado">Nuevo Codigo</button>
+          <h3>Cifrado</h3>
+          <input type="text" id="cifrado1" />
+      </div>
+  </div>
+  <div id = "descifrado" class = "desifrador ocultar">
+      <div class="fondo">
+          <img  src="imagenes/fondo.jpg"width = "600" >
+      </div>
+      <div class = "descifrar">
+          <h1>Ingresa la clave cifrada</h1>
+          <input type="text" placeholder = " SOLO MAYUSCULA" id="claveADescifrar" /><br>
+          <button href = # type = "button" id = "btndecode">Descifrar</button>  
+          <button href = # type = "button" id = "limpiarDescifrado">Nuevo Codigo</button>      
+          <h3>Descifrado</h3>
+          <input type="text" id="descifrado1" />
+      </div>
+  </div>
+     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
