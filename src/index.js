@@ -41,7 +41,7 @@ const btndescifrado = document.getElementById('btndescifrado');
 const limpiarCifrado = document.getElementById('limpiarCifrado');
     limpiarCifrado.addEventListener('click', () => {
 	document.getElementById('claveACifrar').value ='';
-	document.getElementById('cifrado').value ='';
+	document.getElementById('cifrado1').value ='';
 });
 const limpiarDescifrado = document.getElementById('limpiarDescifrado');
 limpiarDescifrado.addEventListener('click', () => {
