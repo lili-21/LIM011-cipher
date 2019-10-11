@@ -66,7 +66,7 @@ const soloMayuscula = (event) => {
 	}
 }
 const inputCifrar = document.getElementById('claveACifrar')
-inputCifrar.addEventListener('keypress', soloMayuscula, false)
+inputCifrar.addEventListener('keypress', soloMayuscula)
 
 const inputDescifrar = document.getElementById('claveADescifrar')
-inputDescifrar.addEventListener('keypress',  soloMayuscula, false)
+inputDescifrar.addEventListener('keypress',  soloMayuscula)
