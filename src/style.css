@@ -12,10 +12,10 @@ body{
     text-align: center;
     font-size: 20px;
 }
-.inicio h2{
-    font-family: 'Nanum Myeongjo', serif;
+.inicio p{
+    font-family: 'Lora', serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     color: #333333;
 
 }
@@ -26,9 +26,21 @@ body{
     margin:0 50px;
     vertical-align: top;
 }
-
+.compu{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+.imgseguro{
+    width: 300px;
+    border-radius: 20px;
+}
+.codi{
+    width: 380px;
+    border-radius: 20px;
+}
 .cuenta{
-    width:40%;
+    width: 40%;
     display: inline-block;
     text-align: center; 
     margin: 0 50px;
@@ -78,11 +90,13 @@ select{
     justify-content: space-between;
 }
 .fondo{
-    width: 50%;
-    object-fit: cover;
+    width: 550px;
+    border-radius: 20px;
+    margin: 0 50px;
+    /*object-fit: cover;*/
     display: inline-block;
     text-align: center;
-
+    
 }
 .nivel{
     width:40%;
