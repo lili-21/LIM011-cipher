@@ -52,3 +52,14 @@ inputCifrar.addEventListener('keypress', soloMayuscula)
 
 const inputDescifrar = document.getElementById('claveADescifrar')
 inputDescifrar.addEventListener('keypress',  soloMayuscula)
+
+const btnvolver= document.getElementById('volver');
+ btnvolver.addEventListener('click', () => {	
+	document.getElementById('inicio').classList.remove('ocultar')
+	document.getElementById('Cifrado').classList.add('ocultar')
+});
+const btnvolver1= document.getElementById('volver1');
+ btnvolver1.addEventListener('click', () => {	
+	document.getElementById('inicio').classList.remove('ocultar')
+	document.getElementById('descifrado').classList.add('ocultar')
+});
