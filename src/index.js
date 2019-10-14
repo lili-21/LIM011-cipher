@@ -1,27 +1,5 @@
 let offset = 0;
-
-/*const btn = document.getElementById('btn');
-btn.addEventListener('click', () => {
-    document.getElementById('nivelSeguridad').classList.remove('ocultar')
-    document.getElementById('inicio').classList.add('ocultar')
- });
-const btn2 = document.getElementById('btn2');
-btn2.addEventListener('click', () => {
-    document.getElementById('nivelSeguridad').classList.remove('ocultar')
-    document.getElementById('inicio').classList.add('ocultar')
- });
-const btn3 = document.getElementById('btn3');
-btn3.addEventListener('click', () => {
-    document.getElementById('nivelSeguridad').classList.remove('ocultar')
-    document.getElementById('inicio').classList.add('ocultar')
- });
-const btn4 = document.getElementById('btn4');
-btn4.addEventListener('click', () => {
-    document.getElementById('nivelSeguridad').classList.remove('ocultar')
-    document.getElementById('inicio').classList.add('ocultar')
- });*/
-
- const siguiente = document.getElementById('siguiente');
+const siguiente = document.getElementById('siguiente');
  siguiente.addEventListener('click', () => {	
 	const select = document.getElementById('Nivel');
 	offset =  parseInt(select.options[select.selectedIndex].value);
