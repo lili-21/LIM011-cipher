@@ -1,6 +1,6 @@
 let offset = 0;
 
-const btn = document.getElementById('btn');
+/*const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
     document.getElementById('nivelSeguridad').classList.remove('ocultar')
     document.getElementById('inicio').classList.add('ocultar')
@@ -19,14 +19,14 @@ const btn4 = document.getElementById('btn4');
 btn4.addEventListener('click', () => {
     document.getElementById('nivelSeguridad').classList.remove('ocultar')
     document.getElementById('inicio').classList.add('ocultar')
- });
+ });*/
 
  const siguiente = document.getElementById('siguiente');
  siguiente.addEventListener('click', () => {	
 	const select = document.getElementById('Nivel');
 	offset =  parseInt(select.options[select.selectedIndex].value);
 	document.getElementById('opciones').classList.remove('ocultar')
-    document.getElementById('nivelSeguridad').classList.add('ocultar')
+    document.getElementById('inicio').classList.add('ocultar')
 });
 const btncifrado = document.getElementById('btncifrado');
     btncifrado.addEventListener('click', () => {
@@ -61,9 +61,13 @@ btndecode.addEventListener('click', () => {
 });
 
 const soloMayuscula = (event) => {
-	if (event.charCode < 65 || event.charCode > 90) {
+	if ((event.charCode >= 65 && event.charCode <= 90) ||
+		(event.charCode >= 48 && event.charCode <= 57)) {
+		return true
+	} else {
 		return event.preventDefault();
 	}
+	
 }
 const inputCifrar = document.getElementById('claveACifrar')
 inputCifrar.addEventListener('keypress', soloMayuscula)
