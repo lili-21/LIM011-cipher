@@ -26,7 +26,18 @@ limpiarDescifrado.addEventListener('click', () => {
 	document.getElementById('claveADescifrar').value ='';
 	document.getElementById('descifrado1').value ='';
 });
-
+const limpiarCifradorVolver = document.getElementById('volver');
+limpiarCifradorVolver.addEventListener('click', () => {
+	document.getElementById('Nivel').value ='0';
+	document.getElementById('claveACifrar').value ='';
+	document.getElementById('cifrado1').value ='';
+});
+const limpiarDescifradoVolver = document.getElementById('volver1');
+limpiarDescifradoVolver.addEventListener('click', () => {
+	document.getElementById('Nivel').value ='0';
+	document.getElementById('claveADescifrar').value ='';
+	document.getElementById('descifrado1').value ='';
+});
 const btnencode = document.getElementById('btnencode');
 btnencode.addEventListener('click', () => {
 	const texto = document.getElementById('claveACifrar').value;
@@ -37,7 +48,6 @@ btndecode.addEventListener('click', () => {
 	const texto = document.getElementById('claveADescifrar').value;
 	document.getElementById("descifrado1").value = cipher.decode(texto, offset); 
 });
-
 const soloMayuscula = (event) => {
 	if ((event.charCode >= 65 && event.charCode <= 90) ||
 		(event.charCode >= 48 && event.charCode <= 57)) {
@@ -45,7 +55,6 @@ const soloMayuscula = (event) => {
 	} else {
 		return event.preventDefault();
 	}
-	
 }
 const inputCifrar = document.getElementById('claveACifrar')
 inputCifrar.addEventListener('keypress', soloMayuscula)

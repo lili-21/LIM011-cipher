@@ -6,10 +6,7 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Imagen final del Proyecto](#3-imagen-final-del-proyecto)
 * [4. Investigación UX](#4-investigacio-UX)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6-hacker-edition)
-* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-
+* [5. Objetivos de aprendizaje Cipher](#5-objetivos-de-aprendisaje-cipher)
 
 
 ## 1. Preámbulo
@@ -28,7 +25,10 @@ texto indicando un nivel de seguridad.
 
 ## 3. Imagen final del Proyecto
 
-![imagen final](src/imagenes/proyecto-final.jpg)
+![imagen final](src/imagenes/proyecto1.jpg)
+![imagen final](src/imagenes/proyecto2.jpg)
+![imagen final](src/imagenes/proyecto3.jpg)
+![imagen final](src/imagenes/proyecto4.jpg)
 
 
 ## 4. Investigacion UX
@@ -43,10 +43,13 @@ texto indicando un nivel de seguridad.
 * Centrarnos en primer lugar en la necesidad del usuario.
 * Mejorar mi pantalla facilitar la navegacion del usuario.
 
-[Figma](https://www.figma.com/file/USrbZzPlVRIcpT94ORl5rb/Proyecto-Cifrado?node-id=1%3A2)
+![imagen final](src/imagenes/prototipo1.jpg)
+![imagen final](src/imagenes/prototipo2.jpg)
+![imagen final](src/imagenes/prototipo3.jpg)
+![imagen final](src/imagenes/prototipo4.jpg)
 
 
-## Objetivos de aprendizaje Cipher
+## 5. Objetivos de aprendizaje Cipher
 ​
 A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
 ​
