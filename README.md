@@ -43,8 +43,8 @@ texto indicando un nivel de seguridad.
 * Centrarnos en primer lugar en la necesidad del usuario.
 * Mejorar mi pantalla facilitar la navegacion del usuario.
 
-![imagen final](src/imagenes/prototipo1.jpg)
-![imagen final](src/imagenes/prototipo2.jpg)
+![imagen final](src/imagenes/Prototipo1.jpg)
+![imagen final](src/imagenes/Prototipo2.jpg)
 ![imagen final](src/imagenes/prototipo3.jpg)
 ![imagen final](src/imagenes/prototipo4.jpg)
 
