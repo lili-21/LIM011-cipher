@@ -7,7 +7,7 @@ const siguiente = document.getElementById('siguiente');
     document.getElementById('inicio').classList.add('ocultar')
 });
 const btncifrado = document.getElementById('btncifrado');
-    btncifrado.addEventListener('click', () => {
+    btncifrado.auddEventListener('click', () => {
 	document.getElementById('Cifrado').classList.remove('ocultar')
 	document.getElementById('opciones').classList.add('ocultar')
 });

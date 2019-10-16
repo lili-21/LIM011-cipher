@@ -61,21 +61,21 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 ​
 ### HTML y CSS
 ​
-- [x] Uso correcto de HTML semántico.
+- [ ] Uso correcto de HTML semántico.
 - [x] Uso de selectores de CSS.
 - [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 ​
 ### DOM
 ​
 - [x] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
-- [x] Manipulación dinámica del DOM.
+- [x] Manejo de eventos del DOM.
+- [ ] Manipulación dinámica del DOM.
 ​
 ### Javascript
 ​
-- [ ] Manipulación de strings.
-- [x] Uso de condicionales (if-else | switch).
-- [x] Uso de bucles (for | do-while).	
+- [x] Manipulación de strings.
+- [ ] Uso de condicionales (if-else | switch).
+- [ ] Uso de bucles (for | do-while).	
 - [x] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [x] Declaración correcta de variables (const & let).
 ​

@@ -5,6 +5,9 @@ body{
 .ocultar{
     display: none !important;
 }
+.text-center {
+    text-align: center;
+}
 .inicio{
     display: inline;
     flex-direction: column;
